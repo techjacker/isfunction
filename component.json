@@ -1,0 +1,21 @@
+{
+  "name": "isFunction",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Is it a function?",
+  "keywords": [
+    "function"
+  ],
+  "repo": "techjacker/isFunction",
+  "dependencies": {},
+  "development": {
+    "visionmedia/mocha": "*",
+    "techjacker/expect.js": "*"
+  },
+  "main": "lib/main.js",
+  "scripts": [
+    "lib/main.js"
+  ],
+  "demo": "",
+  "styles": []
+}

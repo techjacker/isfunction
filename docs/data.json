@@ -1,0 +1,13 @@
+{
+    "project": {
+        "name": "isFunction",
+        "description": "Is it a function?",
+        "version": "0.0.1",
+        "url": "git@github.com:techjacker/isFunction.git"
+    },
+    "files": {},
+    "modules": {},
+    "classes": {},
+    "classitems": [],
+    "warnings": []
+}
