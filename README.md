@@ -1,12 +1,12 @@
-# isFunction
+# isfunction
 
 Is it a function?
 
 
-[![Build Status](https://secure.travis-ci.org/techjacker/isFunction.png)](http://travis-ci.org/techjacker/isFunction)
+[![Build Status](https://secure.travis-ci.org/techjacker/isfunction.png)](http://travis-ci.org/techjacker/isfunction)
 
-[![Sauce Labs Browser Test Status](https://saucelabs.com/buildstatus/isFunction)](https://saucelabs.com/u/isFunction)
-[![Sauce Labs Browser Test Status](https://saucelabs.com/browser-matrix/isFunction.svg)](https://saucelabs.com/u/isFunction)
+[![Sauce Labs Browser Test Status](https://saucelabs.com/buildstatus/isfunction)](https://saucelabs.com/u/isfunction)
+[![Sauce Labs Browser Test Status](https://saucelabs.com/browser-matrix/isfunction.svg)](https://saucelabs.com/u/isfunction)
 
 
 ### Install
@@ -14,42 +14,24 @@ Is it a function?
 #### Node
 
 ```Shell
-npm install isFunction
+npm install isfunction
 ```
 
 #### Browser
 
 ```Shell
-component install isFunction
+component install isfunction
 ```
 
 
 ## Usage
 
-#### isFunction.mixinInstanceProps(class, [classes])
-
 ```JavaScript
-var myStaticClass = {};
+var isFunction = require('isFunction'),
+	randomFn = function () {};
 
-/* .mixinInstanceProps() */
-mitsubishi.mixinInstanceProps(myStaticClass, [{hello:true}, {world:true}]);
-
-console.log('myStaticClass', myStaticClass);
-// outputs: {{hello:true, world:true}
-```
-
-#### isFunction.mixinProtoProps(class, [classes])
-
-```JavaScript
-var myDynamicClass = function () {};
-var parentDynamicClass = function () {};
-
-parentDynamicClass.prototype.awesome = blah;
-
-mitsubishi.mixinProtoProps(myDynamicClass, [(new parentDynamicClass), {world:true}]);
-
-console.log('myDynamicClass', myDynamicClass);
-// outputs: {{awesome:"blah", world:true}
+isFunction('blah'); // false
+isFunction(randomFn); // true
 ```
 
 

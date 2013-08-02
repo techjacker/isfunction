@@ -1,6 +1,6 @@
 {
-  "name": "isFunction",
-  "version": "0.0.1",
+  "name": "isfunction",
+  "version": "0.0.2",
   "license": "MIT",
   "description": "Is it a function?",
   "keywords": [
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:techjacker/isFunction.git"
+    "url": "git@github.com:techjacker/isfunction.git"
   },
   "engines": [
     "node >= 0.4.0"

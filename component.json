@@ -1,12 +1,12 @@
 {
-  "name": "isFunction",
-  "version": "0.0.1",
+  "name": "isfunction",
+  "version": "0.0.2",
   "license": "MIT",
   "description": "Is it a function?",
   "keywords": [
     "function"
   ],
-  "repo": "techjacker/isFunction",
+  "repo": "techjacker/isfunction",
   "dependencies": {},
   "development": {
     "visionmedia/mocha": "*",

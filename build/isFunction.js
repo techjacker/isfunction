@@ -196,7 +196,7 @@ require.relative = function(parent) {
 
   return localRequire;
 };
-require.register("isFunction/lib/main.js", function(exports, require, module){
+require.register("isfunction/lib/main.js", function(exports, require, module){
 // if (require !== 'undefined') {}
 
 var isFunction = function (functionToCheck) {
@@ -208,10 +208,10 @@ if (module !== 'undefined' && module.exports) {
 	module.exports = isFunction;
 }
 });
-require.alias("isFunction/lib/main.js", "isFunction/index.js");if (typeof exports == "object") {
-  module.exports = require("isFunction");
+require.alias("isfunction/lib/main.js", "isfunction/index.js");if (typeof exports == "object") {
+  module.exports = require("isfunction");
 } else if (typeof define == "function" && define.amd) {
-  define(function(){ return require("isFunction"); });
+  define(function(){ return require("isfunction"); });
 } else {
-  this["isFunction"] = require("isFunction");
+  this["isFunction"] = require("isfunction");
 }})();
