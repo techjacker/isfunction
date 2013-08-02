@@ -27,11 +27,11 @@ component install isfunction
 ## Usage
 
 ```JavaScript
-var isFunction = require('isFunction'),
+var isfunction = require('isfunction'),
 	randomFn = function () {};
 
-isFunction('blah'); // false
-isFunction(randomFn); // true
+isfunction('blah'); // false
+isfunction(randomFn); // true
 ```
 
 
@@ -52,6 +52,7 @@ should return true if a function.
 var randomFn = function (argument) {},
 			randomObj = {},
 			randomStr = 'blah';
+
 expect(isFunction(randomFn)).to.be.ok();
 		expect(isFunction(randomObj)).to.not.be.ok();
 		expect(isFunction(randomStr)).to.not.be.ok();

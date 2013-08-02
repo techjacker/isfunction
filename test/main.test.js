@@ -12,6 +12,7 @@ describe('isFunction', function () {
 			randomObj = {},
 			randomStr = 'blah';
 
+
 		expect(isFunction(randomFn)).to.be.ok();
 		expect(isFunction(randomObj)).to.not.be.ok();
 		expect(isFunction(randomStr)).to.not.be.ok();
