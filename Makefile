@@ -29,7 +29,8 @@ lint:
 ######################################
 # Node Tests
 ######################################
-test: test-node test-saucelabs
+# test: test-node test-saucelabs
+test: test-node
 
 test-node: npm-install-dev
 	@NODE_ENV=test ./node_modules/.bin/mocha \
