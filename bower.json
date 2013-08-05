@@ -1,7 +1,8 @@
 {
   "name": "isfunction",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Is it a function?",
+  "main": "build/isfunction.js",
   "licenses": [{"type": "MIT"}],
   "author": {
     "name": "Andrew Griffiths",

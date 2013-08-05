@@ -213,5 +213,5 @@ require.alias("isfunction/lib/main.js", "isfunction/index.js");if (typeof export
 } else if (typeof define == "function" && define.amd) {
   define(function(){ return require("isfunction"); });
 } else {
-  this["isFunction"] = require("isfunction");
+  this["isfunction"] = require("isfunction");
 }})();

@@ -7,7 +7,7 @@ TMPL_DIR = docs-tmpl
 MOCHA_MD_DOCS = README_footer.md
 
 ## Build
-MOD_NAME = isFunction
+MOD_NAME = isfunction
 BUILD_DIR = build
 BUILD_STANDALONE = $(BUILD_DIR)/$(MOD_NAME).js
 BUILD_STANDALONE_MIN = $(BUILD_STANDALONE:.js=.min.js)
