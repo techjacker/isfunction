@@ -1,0 +1,19 @@
+{
+  "name": "isfunction",
+  "version": "0.0.4",
+  "description": "Is it a function?",
+  "licenses": [{"type": "MIT"}],
+  "author": {
+    "name": "Andrew Griffiths",
+    "email": "mail@andrewgriffithsonline.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:techjacker/isfunction.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "visionmedia/mocha": "*",
+    "techjacker/expect.js": "*"
+  }
+}

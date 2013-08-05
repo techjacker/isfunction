@@ -2,12 +2,7 @@
 
 Is it a function?
 
-
 [![Build Status](https://secure.travis-ci.org/techjacker/isfunction.png)](http://travis-ci.org/techjacker/isfunction)
-
-[![Sauce Labs Browser Test Status](https://saucelabs.com/buildstatus/isfunction)](https://saucelabs.com/u/isfunction)
-[![Sauce Labs Browser Test Status](https://saucelabs.com/browser-matrix/isfunction.svg)](https://saucelabs.com/u/isfunction)
-
 
 ### Install
 
@@ -21,6 +16,10 @@ npm install isfunction
 
 ```Shell
 component install isfunction
+```
+
+```Shell
+bower install isfunction
 ```
 
 

@@ -197,14 +197,14 @@ require.relative = function(parent) {
   return localRequire;
 };
 require.register("isfunction/lib/main.js", function(exports, require, module){
-// if (require !== 'undefined') {}
+// if (typeof require !== 'undefined') {}
 
 var isFunction = function (functionToCheck) {
 	var getType = {};
 	return functionToCheck && getType.toString.call(functionToCheck) === '[object Function]';
 };
 
-if (module !== 'undefined' && module.exports) {
+if (typeof module !== 'undefined' && module.exports) {
 	module.exports = isFunction;
 }
 });
